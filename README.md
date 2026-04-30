@@ -158,11 +158,4 @@ The admin dashboard requires a login — credentials are handled through Firebas
 
 ---
 
-## 📌 Note
-
-This repository is a **showcase of the project**.
-The full source code is kept private.
-
----
-
 > Built by **Radebe Innovations** 🚀
