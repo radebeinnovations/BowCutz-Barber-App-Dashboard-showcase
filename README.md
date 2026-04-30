@@ -20,15 +20,6 @@
 
 Clients can book appointments directly from their phones, while barbers manage bookings from a live web dashboard.
 
-### Problems Solved:
-
-- ❌ No more WhatsApp bookings  
-- ❌ No double bookings  
-- ❌ No messy schedules  
-- ✅ Fast mobile booking  
-- ✅ Real-time barber management  
-- ✅ Loyalty rewards system
-
 ---
 
 ## 🚀 Features
