@@ -1,126 +1,89 @@
 # ✂️ BowCutz
 
-<p align="center">
-  <b>Modern Barber Booking Platform</b><br/>
-  Mobile booking app for clients + live admin dashboard for barbers.
-</p>
+> **BowCutz** is a barber booking app built for a real barbershop. Clients book their cuts from their phone, and barbers manage everything from a live web dashboard. No more WhatsApp bookings, no more confusion — just clean scheduling.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React%20Native-Expo-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/React-Dashboard-61DAFB?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Firebase-Backend-FFCA28?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Status-Complete-success?style=for-the-badge" />
-</p>
+Built with **React Native (Expo)** on the front and **Firebase** handling everything on the back.
 
 ---
 
-## 📌 Overview
+## 💡 What It Does
 
-> **BowCutz** is a real-world barber booking platform built to modernize barbershop scheduling.
+There are two sides to BowCutz:
 
-Clients can book appointments directly from their phones, while barbers manage bookings from a live web dashboard.
+**📱 Mobile App — for clients**
+Open the app, enter your name, pick a haircut, choose a barber, lock in a time — done. It's quick, it looks good, and it even has a loyalty system that tracks your visits and rewards you with a free cut every 10 visits. 🎁
 
----
-
-## 🚀 Features
-
-## 📱 Client Mobile App
-
-- Enter customer name
-- Browse haircut styles
-- View pricing & duration
-- Choose barber
-- Pick available time slot
-- Confirm booking instantly
-- Loyalty rewards tracker
-- Smooth modern UI
-
-## 🖥️ Admin Dashboard
-
-- View all daily bookings
-- Live schedule management
-- Complete appointments
-- Booking history
-- Manage barbers
-- Real-time updates
+**🖥️ Admin Dashboard — for barbers**
+Runs in the browser and shows everything happening that day — who's booked, at what time, for which service, and with which barber. When a cut is done, hit "Complete Cut" and it moves to history. Simple as that.
 
 ---
 
-# 📸 Screenshots
+## 📸 Screenshots
 
-## 📱 Welcome & Onboarding
+### Welcome & Onboarding
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/0df10b15-9989-4cc3-ae42-8dc077724f08" width="300" />
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/a06176b8-db87-4631-aac7-920624397628" width="300" alt="Welcome Screen" />
+  <img src="https://github.com/user-attachments/assets/715878e3-bde3-4613-b1a8-6e92655c8104" width="300" alt="Onboarding" />
 </p>
 
 ---
 
-## 💈 Pick Your Style
+### Pick Your Style
+> Each cut shows the price in Rands and how long it takes
 
-> Pricing and duration shown clearly.
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/4f83623b-f644-414e-b6a0-4efeb2592099" width="250" />
-  <img src="https://github.com/user-attachments/assets/5f7f8000-13f4-46c0-8129-ac48312f0960" width="250" />
-  <img src="https://github.com/user-attachments/assets/07ca632f-48a3-43c0-a054-e1762eb1eb00" width="250" />
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/a7da3521-1001-4b5f-8886-78574e69a001" width="300" alt="Fade" />
+  <img src="https://github.com/user-attachments/assets/b1d050fc-3c1e-417e-aa6b-ee5bea3ad37d" width="300" alt="Taper and Chiskop" />
+  <img src="https://github.com/user-attachments/assets/06fdefbb-6173-4e8a-bbb4-7b430319d5b4" width="300" alt="Chiskop and Trim" />
 </p>
 
 ---
 
-## 👨‍🦱 Choose Barber & Time
+### Choose Your Barber & Time
+> Barbers show as Available or Busy in real time
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/20e33605-55b4-42b3-b044-c3f9e8a4ab98" width="250" />
-  <img src="https://github.com/user-attachments/assets/4e39b2e9-2887-4e88-a479-b6c0a76b6478" width="250" />
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/b7b02671-e174-4836-9b27-304becfa3647" width="300" alt="Select Date and Barber" />
+  <img src="https://github.com/user-attachments/assets/85f4cf6d-9e05-4030-8957-c45ed7e0a670" width="300" alt="Select Time Slot" />
 </p>
 
 ---
 
-## ✅ Booking Confirmation
+### Booking Summary & Confirmation
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/5b8578a0-f794-496b-a31f-085e4b3a6b73" width="250" />
-  <img src="https://github.com/user-attachments/assets/8af1d6c2-d57a-4095-a90f-621b6c8a61ff" width="250" />
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/b9568b68-690c-48e5-9d75-5fcb3d5d64df" width="300" alt="Booking Summary" />
+  <img src="https://github.com/user-attachments/assets/2360e443-d8e6-4a5e-baa8-c19cfb36fd02" width="300" alt="Booking Confirmed" />
 </p>
 
 ---
 
-## ⭐ Loyalty Rewards
+### ⭐ Loyalty Rewards
+> 10 cuts and the next one's on the house
 
-> Every 10 cuts earns a free haircut.
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/7196567f-5bee-4798-b25d-794103fc895c" width="250" />
-  <img src="https://github.com/user-attachments/assets/60e91623-0c1a-4694-8681-20b216793f14" width="250" />
-</p>
+<img src="https://github.com/user-attachments/assets/707942c8-7593-4950-9d40-c90efa8af356" width="300" alt="Loyalty Club" />
 
 ---
 
-# 🖥️ Admin Dashboard
+### 🖥️ Admin Dashboard — Daily Schedule & Live Overview
 
-## 📅 Daily Schedule
+<img src="https://github.com/user-attachments/assets/de575ca3-f0e3-4bd8-b4d4-f34442596cdb" width="100%" alt="Dashboard Schedule" />
 
-<img src="https://github.com/user-attachments/assets/1657a4f3-c940-4fa6-ac01-b57a2e19c4e6" width="100%" />
+### Cut History
 
----
+<img src="https://github.com/user-attachments/assets/0ae73da7-0166-45e0-8e2c-6919f6bd7e3e" width="100%" alt="Cut History" />
 
-## 📜 Booking History
+### Manage Barbers
 
-<img src="https://github.com/user-attachments/assets/0b2172cd-055e-4219-929d-b2f8b89a49e5" width="100%" />
-
----
-
-## 👥 Manage Barbers
-
-<img src="https://github.com/user-attachments/assets/1deadc93-c4c2-4cfb-9ee6-ebf43424f17a" width="100%" />
+<img src="https://github.com/user-attachments/assets/739cdb70-6b17-4a15-9984-37e074bf34bb" width="100%" alt="Manage Barbers" />
 
 ---
 
-# 💰 Services & Pricing
+## 💈 Services & Pricing
 
-| Service | Price | Duration |
-|--------|------|----------|
+| Cut | Price | Time |
+|-----|-------|------|
 | Fade | R100 | 45 min |
 | Taper | R100 | 30 min |
 | Chiskop / Bald | R100 | 30 min |
@@ -128,41 +91,56 @@ Clients can book appointments directly from their phones, while barbers manage b
 
 ---
 
-# 🛠️ Tech Stack
+## 🛠️ Built With
 
-### Frontend
-
-- React Native
-- Expo
-- React.js
-
-### Backend
-
-- Firebase Firestore
-- Firebase Authentication
-- Realtime Syncing
-
-### UI / UX
-
-- Responsive layouts
-- Dark mode dashboard
-- Smooth mobile flows
+- **React Native + Expo** — mobile app
+- **React** — admin web dashboard
+- **Firebase Firestore** — database and real-time syncing
+- **Firebase Authentication** — admin login
 
 ---
 
-# ⚙️ Local Setup
+## 🚀 Running It Locally
 
-## 1️⃣ Clone Repository
+You'll need **Node.js (v18+)**, **Expo CLI**, and a **Firebase project** set up with Firestore.
 
+**1. Clone the repo:**
 ```bash
-git clone https://github.com/radebeinnovations/BowCutz-Barber-App-Dashboard-showcase.git
-cd BowCutz-Barber-App-Dashboard-showcase
+git clone https://github.com/radebeinnovations/BowCutz-App-Dashboards.git
+cd BowCutz-App-Dashboards
 npm install
- 
+```
+
+**2. Add your Firebase credentials to the config file:**
+```js
+const firebaseConfig = {
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_PROJECT.firebaseapp.com",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_PROJECT.appspot.com",
+  messagingSenderId: "YOUR_SENDER_ID",
+  appId: "YOUR_APP_ID"
+};
+```
+
+**3. Start the mobile app:**
+```bash
+npx expo start
+```
+Then scan the QR code with **Expo Go** on your phone.
+
+**4. Start the dashboard:**
+```bash
+cd BowCutzDashboard
+npm install
+npm start
+```
+Opens at `http://localhost:3000`
+
 ---
- 
+
 ## 📁 Project Layout
- 
+
 ```
 BowCutz-App-Dashboards/
 ├── .expo/
@@ -171,13 +149,13 @@ BowCutz-App-Dashboards/
 ├── start_dashboards.bat   ← quick start script
 └── README.md
 ```
- 
+
 ---
- 
+
 ## 📝 Notes
- 
+
 The admin dashboard requires a login — credentials are handled through Firebase Auth. If you're setting this up fresh, make sure to create an admin user in your Firebase console first.
- 
+
 ---
- 
+
 > Built by **Radebe Innovations** 🚀
