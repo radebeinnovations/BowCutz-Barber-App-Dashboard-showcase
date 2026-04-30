@@ -1,119 +1,100 @@
 # ✂️ BowCutz
 
-> **BowCutz** is a modern barber booking platform built for a real barbershop. Clients book appointments from their phones, while barbers manage bookings through a live admin dashboard.  
-> No more WhatsApp bookings. No more confusion. Just clean scheduling.
+> **BowCutz** is a barber booking app built for a real barbershop. Clients book their cuts from their phone, and barbers manage everything from a live web dashboard. No more WhatsApp bookings, no more confusion — just clean scheduling.
 
-Built with **React Native (Expo)** for mobile and **Firebase** for backend services.
+Built with **React Native (Expo)** on the front and **Firebase** handling everything on the back.
 
 ---
 
 ## 💡 What It Does
 
-BowCutz has two powerful sides:
+There are two sides to BowCutz:
 
-### 📱 Mobile App — For Clients
+**📱 Mobile App — for clients**  
+Open the app, enter your name, pick a haircut, choose a barber, lock in a time — done. It's quick, it looks good, and it even has a loyalty system that tracks your visits and rewards you with a free cut every 10 visits. 🎁
 
-Clients can:
-
-- Enter their name
-- Choose a haircut
-- Select a barber
-- Pick a date & time
-- Confirm booking instantly
-
-The app also includes a **loyalty rewards system** where every 10 cuts earns a free haircut. 🎁
-
-### 🖥️ Admin Dashboard — For Barbers
-
-Barbers can manage operations in real time:
-
-- View daily bookings
-- See customer names & services
-- Mark appointments complete
-- Track haircut history
-- Manage barber availability
+**🖥️ Admin Dashboard — for barbers**  
+Runs in the browser and shows everything happening that day — who's booked, at what time, for which service, and with which barber. When a cut is done, hit **Complete Cut** and it moves to history. Simple as that.
 
 ---
 
-# 📸 Screenshots
+## 📸 Screenshots
 
-## Welcome & Onboarding
+### Welcome & Onboarding
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/0df10b15-9989-4cc3-ae42-8dc077724f08" width="320" />
+  <img src="https://github.com/user-attachments/assets/0df10b15-9989-4cc3-ae42-8dc077724f08" width="300" alt="Welcome Screen" />
 </p>
 
 ---
 
-## Pick Your Style
+### Pick Your Style
 
-> Each service includes pricing and estimated duration.
+> Each cut shows the price in Rands and how long it takes
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4f83623b-f644-414e-b6a0-4efeb2592099" width="260" />
-  <img src="https://github.com/user-attachments/assets/5f7f8000-13f4-46c0-8129-ac48312f0960" width="260" />
-  <img src="https://github.com/user-attachments/assets/07ca632f-48a3-43c0-a054-e1762eb1eb00" width="260" />
+  <img src="https://github.com/user-attachments/assets/4f83623b-f644-414e-b6a0-4efeb2592099" width="260" alt="Fade" />
+  <img src="https://github.com/user-attachments/assets/5f7f8000-13f4-46c0-8129-ac48312f0960" width="260" alt="Taper and Chiskop" />
+  <img src="https://github.com/user-attachments/assets/07ca632f-48a3-43c0-a054-e1762eb1eb00" width="260" alt="Chiskop and Trim" />
 </p>
 
 ---
 
-## Choose Barber & Time
+### Choose Your Barber & Time
 
-> Live availability shows who is free or busy.
+> Barbers show as Available or Busy in real time
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/20e33605-55b4-42b3-b044-c3f9e8a4ab98" width="260" />
-  <img src="https://github.com/user-attachments/assets/4e39b2e9-2887-4e88-a479-b6c0a76b6478" width="260" />
+  <img src="https://github.com/user-attachments/assets/20e33605-55b4-42b3-b044-c3f9e8a4ab98" width="260" alt="Select Date and Barber" />
+  <img src="https://github.com/user-attachments/assets/4e39b2e9-2887-4e88-a479-b6c0a76b6478" width="260" alt="Select Time Slot" />
 </p>
 
 ---
 
-## Booking Summary & Confirmation
+### Booking Summary & Confirmation
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5b8578a0-f794-496b-a31f-085e4b3a6b73" width="260" />
-  <img src="https://github.com/user-attachments/assets/8af1d6c2-d57a-4095-a90f-621b6c8a61ff" width="260" />
+  <img src="https://github.com/user-attachments/assets/5b8578a0-f794-496b-a31f-085e4b3a6b73" width="260" alt="Booking Summary" />
+  <img src="https://github.com/user-attachments/assets/8af1d6c2-d57a-4095-a90f-621b6c8a61ff" width="260" alt="Booking Confirmed" />
 </p>
 
 ---
 
-## ⭐ Loyalty Club
+### ⭐ Loyalty Club
 
-> Complete 10 cuts and get the next one free.
+> 10 cuts and the next one's on the house
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/7196567f-5bee-4798-b25d-794103fc895c" width="260" />
-  <img src="https://github.com/user-attachments/assets/60e91623-0c1a-4694-8681-20b216793f14" width="260" />
+  <img src="https://github.com/user-attachments/assets/7196567f-5bee-4798-b25d-794103fc895c" width="260" alt="Loyalty Club" />
+  <img src="https://github.com/user-attachments/assets/60e91623-0c1a-4694-8681-20b216793f14" width="260" alt="Loyalty Club Progress" />
 </p>
 
 ---
 
-# 🖥️ Admin Dashboard
-
-## Daily Schedule & Live Overview
+### 🖥️ Admin Dashboard — Daily Schedule & Live Overview
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1657a4f3-c940-4fa6-ac01-b57a2e19c4e6" width="100%" />
+  <img src="https://github.com/user-attachments/assets/1657a4f3-c940-4fa6-ac01-b57a2e19c4e6" width="100%" alt="Dashboard Schedule" />
 </p>
 
-## Cut History
+### Cut History
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/0b2172cd-055e-4219-929d-b2f8b89a49e5" width="100%" />
+  <img src="https://github.com/user-attachments/assets/0b2172cd-055e-4219-929d-b2f8b89a49e5" width="100%" alt="Cut History" />
 </p>
 
-## Manage Barbers
+### Manage Barbers
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1deadc93-c4c2-4cfb-9ee6-ebf43424f17a" width="100%" />
+  <img src="https://github.com/user-attachments/assets/1deadc93-c4c2-4cfb-9ee6-ebf43424f17a" width="100%" alt="Manage Barbers" />
 </p>
 
 ---
 
-# 💈 Services & Pricing
+## 💈 Services & Pricing
 
-| Service | Price | Duration |
-|--------|------|----------|
+| Cut | Price | Time |
+|-----|-------|------|
 | Fade | R100 | 45 min |
 | Taper | R100 | 30 min |
 | Chiskop / Bald | R100 | 30 min |
@@ -121,19 +102,20 @@ Barbers can manage operations in real time:
 
 ---
 
-# 🛠️ Tech Stack
+## 🛠️ Built With
 
-- **React Native + Expo** — Mobile App
-- **React.js** — Web Dashboard
-- **Firebase Firestore** — Database
-- **Firebase Authentication** — Secure Admin Login
-- **Realtime Syncing** — Live Booking Updates
+- **React Native + Expo** — mobile app
+- **React** — admin web dashboard
+- **Firebase Firestore** — database and real-time syncing
+- **Firebase Authentication** — admin login
 
 ---
 
-# 🚀 Running Locally
+## 🚀 Running It Locally
 
-## 1. Clone Repository
+You'll need **Node.js (v18+)**, **Expo CLI**, and a **Firebase project** set up with Firestore.
+
+**1. Clone the repo:**
 
 ```bash
 git clone https://github.com/radebeinnovations/BowCutz-App-Dashboards.git
