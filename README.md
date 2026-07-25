@@ -139,6 +139,26 @@ Opens at `http://localhost:3000`
 
 ---
 
+## 🔧 Maintenance & Roadmap
+
+```
+
+BowCutz is actively maintained as part of ongoing Radebe Innovations work. Current focus areas and planned improvements:
+
+ Migrate booking state management to a more scalable pattern
+ Added Email booking reminders
+ Barber-side analytics (busiest days, top services, repeat clients)
+ Multi-branch support for shops with more than one location
+ Automated tests for booking flow and dashboard actions
+ Accessibility pass on mobile app screens
+Recent Updates
+Improved dashboard loading states and real-time sync reliability
+Cleaned up booking flow copy and screenshots
+General code cleanup and dependency updates
+
+
+```
+
 ## 📁 Project Layout
 
 ```
